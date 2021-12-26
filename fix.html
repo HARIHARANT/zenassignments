@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<body>
+ <script>
+ alert("I'm JavaScript!");
+
+ alert("I'm JavaScript!");
+alert('Hello') // this line is not having semicolon
+alert(`World`)
+alert(3 + 1+ 2);
+
+let admin=9, fname=10.5; 
+fname = "Guvi";
+lname = " geek"
+admin = fname+lname;
+alert( admin );
+
+let fname=10.5; 
+fname = "Guvi";
+lname = " geek"
+let name = fname+lname;
+alert( `hello ${name}` );
+
+let a = parseInt(prompt("First number?"));
+let b = parseInt(prompt("Second number?"));
+alert(a + b);
+
+var a = 2 > 12;
+//Don't touch below this
+if (a) {
+  console.log("Code is Blasted")
+}
+else
+{
+  console.log("Diffused") 
+}
+
+let a = prompt("Enter a number?");
+a = (a == "" || a == 0) == true ? true: false;
+//Don't modify any code below this
+if (a) {
+ console.log( 'OMG it works for any number inc 0' );
+}
+else
+{
+ console.log( "Success" );
+}
+
+let value = parseInt(prompt('How many runs you scored in this ball'));
+if (value === 4) {
+      console.log("You hit a Four");
+} else if (value === 6) {
+      console.log("You hit a Six");
+} else {
+      console.log("I couldn't figure out");
+}
+
+let login = 'Employee';
+let message = (login == 'Employee') ? 'welcome ':
+  (login == 'Director') ? 'Greetings' :
+  (login == '') ? 'No login' : '';
+console.log(message);
+
+let message;
+if (null || 2 || undefined )
+{
+  message = "welcome boss";
+}
+else
+{
+  message = "Go away";
+}
+  console.log(message);
+
+let message;
+let lock = 0;
+//Dont change any code below this 
+if (null || lock || undefined )
+{
+  message = "Go away";
+}
+else
+{
+ message = "welcome";
+}
+  console.log(message);
+
+let message;
+let lock = 0;
+//Dont change any code below this
+if (lock && " " || undefined )
+{
+  message = "Go away";
+}
+else
+{
+ message = "welcome";
+}
+console.log(message);
+
+
+let i = 1;
+while (i < 11) {
+  console.log(i);
+  i++;
+}
+
+let gifts = ["teddy bear", "drone", "doll"];
+for (let i = 0; i < 3; i++) {
+  console.log(`Wrapped ${gifts[i]} and added a bow!`);
+}
+
+let countdown = 100;
+while (countdown > 0) {
+  countdown--;
+  if(countdown == 0)
+  {
+   console.log("bomb triggered");
+  }else{
+    console.log("disarm the bomb");
+  }
+}
+
+var lemein = "0";
+var lemeout = 0;
+var msg = "";
+if (lemein) {
+ msg += "hi";
+ }
+if (lemeout) {
+ msg += "Hello";
+}
+console.log(msg);
+ </script>
+<script src="script.js"></script>
+ Whats the error in this ?
+</body>
+</html>
